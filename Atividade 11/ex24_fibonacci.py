@@ -1,0 +1,5 @@
+# Exercicio 24: apresenta os primeiros 15 termos de Fibonacci.
+a, b = 0, 1
+for _ in range(15):
+    print(a)
+    a, b = b, a + b
